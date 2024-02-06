@@ -1,0 +1,212 @@
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"appium:platformName":"Android","appium:deviceName":"nightwatch-android-11","appium:platformVersion":"11.0","appium:automationName":"UiAutomator2","appium:app":"D:\\PersonalProjects\\my-wdio-project-2\\app\\android\\ApiDemos-debug.apk"},"firstMatch":[{}]},"desiredCapabilities":{"appium:platformName":"Android","appium:deviceName":"nightwatch-android-11","appium:platformVersion":"11.0","appium:automationName":"UiAutomator2","appium:app":"D:\\PersonalProjects\\my-wdio-project-2\\app\\android\\ApiDemos-debug.apk"}}[39m
+[38;5;16m[AppiumDriver@be8a][0m Calling AppiumDriver.createSession() with args: [{"appium:platformName":"Android","appium:deviceName":"nightwatch-android-11","appium:platformVersion":"11.0","appium:automationName":"UiAutomator2","appium:app":"D:\\PersonalProjects\\my-wdio-project-2\\app\\android\\ApiDemos-debug.apk"},null,{"alwaysMatch":{"appium:platformName":"Android","appium:deviceName":"nightwatch-android-11","appium:platformVersion":"11.0","appium:automationName":"UiAutomator2","appium:app":"D:\\PersonalProjects\\my-wdio-project-2\\app\\android\\ApiDemos-debug.apk"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@be8a][0m Event 'newSessionRequested' logged at 1706194426144 (20:23:46 GMT+0530 (India Standard Time))
+[38;5;32m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at D:\PersonalProjects\my-wdio-project-2\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at D:\PersonalProjects\my-wdio-project-2\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@be8a][0m Appium v2.4.1 creating new AndroidUiautomator2Driver (v2.42.2) session
+[38;5;16m[AppiumDriver@be8a][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@be8a][0m Appium's BaseDriver version is 9.5.0
+[38;5;16m[AppiumDriver@be8a][0m AndroidUiautomator2Driver's BaseDriver version is 9.5.0
+[38;5;48m[AndroidUiautomator2Driver@4dee][0m Creating session with W3C capabilities: {
+[38;5;48m[AndroidUiautomator2Driver@4dee][0m   "alwaysMatch": {
+[38;5;48m[AndroidUiautomator2Driver@4dee][0m     "platformName": "Android",
+[38;5;48m[AndroidUiautomator2Driver@4dee][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;48m[AndroidUiautomator2Driver@4dee][0m     "appium:platformVersion": "11.0",
+[38;5;48m[AndroidUiautomator2Driver@4dee][0m     "appium:automationName": "UiAutomator2",
+[38;5;48m[AndroidUiautomator2Driver@4dee][0m     "appium:app": "D:\\PersonalProjects\\my-wdio-project-2\\app\\android\\ApiDemos-debug.apk"
+[38;5;48m[AndroidUiautomator2Driver@4dee][0m   },
+[38;5;48m[AndroidUiautomator2Driver@4dee][0m   "firstMatch": [
+[38;5;48m[AndroidUiautomator2Driver@4dee][0m     {}
+[38;5;48m[AndroidUiautomator2Driver@4dee][0m   ]
+[38;5;48m[AndroidUiautomator2Driver@4dee][0m }
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Session created with session id: b67bbfb3-8e7e-4a79-966b-632cb39f56fd
+[38;5;32m[BaseDriver][0m Using local app 'D:\PersonalProjects\my-wdio-project-2\app\android\ApiDemos-debug.apk'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Checking whether app is actually present
+[38;5;64m[ADB][0m Found 3 'build-tools' folders under 'C:\Users\anjali.chander\AppData\Local\Android\Sdk' (newest first):
+[38;5;64m[ADB][0m     C:\Users\anjali.chander\AppData\Local\Android\Sdk\build-tools\33.0.2
+[38;5;64m[ADB][0m     C:\Users\anjali.chander\AppData\Local\Android\Sdk\build-tools\31.0.0
+[38;5;64m[ADB][0m     C:\Users\anjali.chander\AppData\Local\Android\Sdk\build-tools\30.0.3
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[38;5;80m[AndroidDriver][0m Retrieving device list
+[38;5;64m[ADB][0m Trying to find connected Android devices
+[38;5;64m[ADB][0m Getting connected devices
+[38;5;64m[ADB][0m Connected devices: [{"udid":"emulator-5554","state":"device"}]
+[38;5;80m[AndroidDriver][0m Looking for a device with Android '11.0.0'
+[38;5;64m[ADB][0m Setting device id to emulator-5554
+[38;5;64m[ADB][0m Getting device platform version
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[38;5;64m[ADB][0m Current device property 'ro.build.version.release': 11
+[38;5;80m[AndroidDriver][0m Using device: emulator-5554
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[38;5;64m[ADB][0m Setting device id to emulator-5554
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[38;5;64m[ADB][0m Current device property 'ro.build.version.sdk': 30
+[38;5;64m[ADB][0m Getting device platform version
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[38;5;64m[ADB][0m Current device property 'ro.build.version.release': 11
+[38;5;64m[ADB][0m Device API level: 30
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Relaxing hidden api policy
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[38;5;80m[AndroidDriver][0m Parsing package and activity from app manifest
+[38;5;64m[ADB][0m Package name: 'io.appium.android.apis'
+[38;5;64m[ADB][0m Main activity name: 'io.appium.android.apis.ApiDemos'
+[38;5;80m[AndroidDriver][0m Parsed package and activity are: io.appium.android.apis/io.appium.android.apis.ApiDemos
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+[38;5;80m[AndroidDriver][0m Pushing settings apk to device...
+[38;5;64m[ADB][0m Getting package info for 'io.appium.settings'
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[38;5;64m[ADB][0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.7.3' >= '5.7.3')
+[38;5;64m[ADB][0m There is no need to install/upgrade 'D:\PersonalProjects\my-wdio-project-2\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+[38;5;80m[AndroidDriver][0m io.appium.settings is already running. There is no need to reset its permissions.
+[38;5;96m[Logcat][0m Starting logs capture with command: C:\\Users\\anjali.chander\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Forwarding UiAutomator2 Server port 6790 to local port 8200
+[38;5;64m[ADB][0m Forwarding system: 8200 to device: 6790
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8200 tcp:6790'
+[38;5;64m[ADB][0m Checking app cert for D:\PersonalProjects\my-wdio-project-2\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v6.0.4.apk
+[38;5;64m[ADB][0m Checking app cert for D:\PersonalProjects\my-wdio-project-2\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[38;5;64m[ADB][0m Using 'apksigner.jar' from 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\build-tools\33.0.2\lib\apksigner.jar'
+[38;5;64m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-20\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\anjali.chander\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.2\\lib\\apksigner.jar verify --print-certs D:\\PersonalProjects\\my-wdio-project-2\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+[38;5;64m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-20\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\anjali.chander\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.2\\lib\\apksigner.jar verify --print-certs D:\\PersonalProjects\\my-wdio-project-2\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v6.0.4.apk
+[38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[38;5;64m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[38;5;64m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[38;5;64m[ADB][0m 
+[38;5;64m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;64m[ADB][0m 'D:\PersonalProjects\my-wdio-project-2\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[38;5;64m[ADB][0m Getting install status for io.appium.uiautomator2.server.test
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm path io.appium.uiautomator2.server.test'
+[38;5;64m[ADB][0m 'io.appium.uiautomator2.server.test' is installed
+[38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[38;5;64m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[38;5;64m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[38;5;64m[ADB][0m 
+[38;5;64m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-v6.0.4.apk'
+[38;5;64m[ADB][0m 'D:\PersonalProjects\my-wdio-project-2\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v6.0.4.apk' is signed with the default certificate
+[38;5;64m[ADB][0m Getting package info for 'io.appium.uiautomator2.server'
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[38;5;64m[ADB][0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('6.0.4' >= '6.0.4')
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Server packages status: [{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"D:\\PersonalProjects\\my-wdio-project-2\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v6.0.4.apk","appId":"io.appium.uiautomator2.server"},{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"D:\\PersonalProjects\\my-wdio-project-2\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Server packages are not going to be (re)installed
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Waiting up to 30000ms for services to be available
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;64m[ADB][0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[38;5;64m[ADB][0m Checking app cert for D:\PersonalProjects\my-wdio-project-2\app\android\ApiDemos-debug.apk
+[38;5;64m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-20\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\anjali.chander\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.2\\lib\\apksigner.jar verify --print-certs D:\\PersonalProjects\\my-wdio-project-2\\app\\android\\ApiDemos-debug.apk
+[38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[38;5;64m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[38;5;64m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[38;5;64m[ADB][0m 
+[38;5;64m[ADB][0m sha256 hash did match for 'ApiDemos-debug.apk'
+[38;5;64m[ADB][0m 'D:\PersonalProjects\my-wdio-project-2\app\android\ApiDemos-debug.apk' is signed with the default certificate
+[38;5;64m[ADB][0m Getting package info for 'io.appium.android.apis'
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.android.apis'
+[38;5;64m[ADB][0m The version name of the installed 'io.appium.android.apis' is greater or equal to the application version name ('3.1.0' >= '3.1.0')
+[38;5;64m[ADB][0m There is no need to install/upgrade 'D:\PersonalProjects\my-wdio-project-2\app\android\ApiDemos-debug.apk'
+[38;5;80m[AndroidDriver][0m Performing fast reset on 'io.appium.android.apis'
+[38;5;64m[ADB][0m Getting install status for io.appium.android.apis
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm path io.appium.android.apis'
+[38;5;64m[ADB][0m 'io.appium.android.apis' is installed
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.android.apis'
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear io.appium.android.apis'
+[38;5;80m[AndroidDriver][0m Performed fast reset on the installed 'io.appium.android.apis' application (stop and clear)
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Performing shallow cleanup of automation leftovers
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m No obsolete sessions have been detected (socket hang up)
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Starting UIAutomator2 server 6.0.4
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Using UIAutomator2 server from 'D:\PersonalProjects\my-wdio-project-2\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v6.0.4.apk' and test from 'D:\PersonalProjects\my-wdio-project-2\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;64m[ADB][0m Creating ADB subprocess with args: ["-P","5037","-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Matched '/status' to command name 'getStatus'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Matched '/status' to command name 'getStatus'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Matched '/status' to command name 'getStatus'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Matched '/status' to command name 'getStatus'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m socket hang up
+[38;5;112m[Instrumentation][0m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Matched '/status' to command name 'getStatus'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Matched '/status' to command name 'getStatus'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Matched '/status' to command name 'getStatus'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m The initialization of the instrumentation process took 6548ms
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Matched '/session' to command name 'createSession'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Proxying [POST /session] to [POST http://127.0.0.1:8200/session] with body: {"capabilities":{"firstMatch":[{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","automationName":"UiAutomator2","app":"D:\\PersonalProjects\\my-wdio-project-2\\app\\android\\ApiDemos-debug.apk","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"nightwatch-android-11","platformVersion":"11.0","automationName":"UiAutomator2","app":"D:\\PersonalProjects\\my-wdio-project-2\\app\\android\\ApiDemos-debug.apk"},"deviceUDID":"emulator-5554","appPackage":"io.appium.android.apis"}],"alwaysMatch":{}}}
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Got response with status 200: {"sessionId":"1fe7232c-03be-4f1c-b952-a6f2290b712f","value":{"capabilities":{"firstMatch":[{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11.0","automationName":"UiAutomator2","app":"D:\\PersonalProjects\\my-wdio-project-2\\app\\android\\ApiDemos-debug.apk","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"nightwatch-android-11","platformVersion":"11.0","automationName":"UiAutomator2","app":"D:\\PersonalProjects\\my-wdio-project-2\\app\\android\\ApiDemos-debug.apk"},"deviceUDID":"emulator-5554","appPackage":"io.appium.android.apis"}],"alwaysMatch":{}},"sessionId":"1fe7232c-03be-4f1c-b952-a6f2290b712f"}}
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Determined the downstream protocol as 'W3C'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/session/1fe7232c-03be-4f1c-b952-a6f2290b712f/appium/device/pixel_ratio] with no body
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/session/1fe7232c-03be-4f1c-b952-a6f2290b712f/appium/device/system_bars] with no body
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Matched '/window/current/size' to command name 'getWindowSize'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/session/1fe7232c-03be-4f1c-b952-a6f2290b712f/window/current/size] with no body
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/session/1fe7232c-03be-4f1c-b952-a6f2290b712f/appium/device/info] with no body
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Got response with status 200: {"sessionId":"1fe7232c-03be-4f1c-b952-a6f2290b712f","value":2.75}
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Got response with status 200: {"sessionId":"1fe7232c-03be-4f1c-b952-a6f2290b712f","value":{"height":2340,"width":1080}}
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Got response with status 200: {"sessionId":"1fe7232c-03be-4f1c-b952-a6f2290b712f","value":{"statusBar":145}}
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Got response with status 200: {"sessionId":"1fe7232c-03be-4f1c-b952-a6f2290b712f","value":{"androidId":"ebc70e0274d490b4","apiVersion":"30","bluetooth":{"state":"ON"},"brand":"google","carrierName":"Android","displayDensity":440,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone_x86_64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":141000,"linkUpstreamBandwidthKbps":141000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-30,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabil...
+[38;5;80m[AndroidDriver][0m Screen already unlocked, doing nothing
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Starting 'io.appium.android.apis/io.appium.android.apis.ApiDemos and waiting for 'io.appium.android.apis/io.appium.android.apis.ApiDemos'
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n io.appium.android.apis/io.appium.android.apis.ApiDemos -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[38;5;64m[ADB][0m Waiting up to 20000ms for activity matching pkg: 'io.appium.android.apis' and activity: 'io.appium.android.apis.ApiDemos' to be focused
+[38;5;64m[ADB][0m Possible activities, to be checked: 'io.appium.android.apis.ApiDemos', 'io.appium.android.apis.io.appium.android.apis.ApiDemos'
+[38;5;64m[ADB][0m Getting focused package and activity
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+[38;5;64m[ADB][0m Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+[38;5;16m[AppiumDriver@be8a][0m New AndroidUiautomator2Driver session created successfully, session b67bbfb3-8e7e-4a79-966b-632cb39f56fd added to master session list
+[38;5;16m[AppiumDriver@be8a][0m Event 'newSessionStarted' logged at 1706194441807 (20:24:01 GMT+0530 (India Standard Time))
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Cached the protocol value 'W3C' for the new session b67bbfb3-8e7e-4a79-966b-632cb39f56fd
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Responding to client with driver.createSession() result: {"capabilities":{"platformName":"Android","deviceName":"emulator-5554","platformVersion":"11","automationName":"UiAutomator2","app":"D:\\PersonalProjects\\my-wdio-project-2\\app\\android\\ApiDemos-debug.apk","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"nightwatch-android-11","platformVersion":"11.0","automationName":"UiAutomator2","app":"D:\\PersonalProjects\\my-wdio-project-2\\app\\android\\ApiDemos-debug.apk"},"deviceUDID":"emulator-5554","appPackage":"io.appium.android.apis","pixelRatio":"2.75","statBarHeight":145,"viewportRect":{"left":0,"top":145,"width":1080,"height":2195},"deviceApiLevel":30,"deviceManufacturer":"Google","deviceModel":"sdk_gphone_x86_64","deviceScreenSize":"1080x2340","deviceScreenDensity":440}}
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[32m200[39m [90m15670 ms - 988[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/session/b67bbfb3-8e7e-4a79-966b-632cb39f56fd[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Calling AppiumDriver.deleteSession() with args: ["b67bbfb3-8e7e-4a79-966b-632cb39f56fd"]
+[38;5;16m[AppiumDriver@be8a][0m Event 'quitSessionRequested' logged at 1706194456874 (20:24:16 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@be8a][0m Removing session b67bbfb3-8e7e-4a79-966b-632cb39f56fd from our master session list
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Deleting UiAutomator2 session
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Deleting UiAutomator2 server session
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Matched '/' to command name 'deleteSession'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/session/1fe7232c-03be-4f1c-b952-a6f2290b712f] with no body
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Got response with status 200: {"sessionId":"1fe7232c-03be-4f1c-b952-a6f2290b712f","value":null}
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.android.apis'
+[38;5;96m[Logcat][0m Stopping logcat capture
+[38;5;64m[ADB][0m Removing forwarded port socket connection: 8200 
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:8200'
+[38;5;48m[AndroidUiautomator2Driver@4dee (b67bbfb3)][0m Restoring hidden api policy to the device default configuration
+[38;5;64m[ADB][0m Running 'C:\Users\anjali.chander\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[38;5;112m[Instrumentation][0m .
+[38;5;112m[Instrumentation][0m Time: 21.267
+[38;5;112m[Instrumentation][0m 
+[38;5;112m[Instrumentation][0m OK (1 test)
+[38;5;16m[AppiumDriver@be8a][0m Event 'quitSessionFinished' logged at 1706194457617 (20:24:17 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@be8a][0m Received response: null
+[38;5;16m[AppiumDriver@be8a][0m But deleting session, so not returning
+[38;5;16m[AppiumDriver@be8a][0m Responding to client with driver.deleteSession() result: null
+[38;5;0m[HTTP][0m [37m<-- DELETE /session/b67bbfb3-8e7e-4a79-966b-632cb39f56fd [39m[32m200[39m [90m748 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;112m[Instrumentation][0m The process has exited with code 0
