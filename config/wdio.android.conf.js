@@ -17,4 +17,10 @@ config.capabilities = [{
     'appium:app': path.join(process.cwd(), 'app/android/ApiDemos-debug.apk')
 }];
 
+// services: ['appium'], //changed
+config.services = ['appium'],
+config.appium = {
+    command: 'appium',
+},
+
 exports.config = config;

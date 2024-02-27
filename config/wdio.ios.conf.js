@@ -16,4 +16,10 @@ config.capabilities = [{
     'appium:app': path.join(process.cwd(), 'app/ios/ApiDemos-debug.ipa')
 }];
 
+// services: ['appium'], //changed
+config.services = ['appium'],
+config.appium = {
+    command: 'appium',
+},
+
 exports.config = config;
