@@ -12,7 +12,9 @@
     "wdio:bs:android": "wdio run ./config/wdio.android.bs.conf.js",
     "wdio:ios": "wdio run ./config/wdio.ios.conf.js",
     "dev:android": "npx wdio run ./config/wdio.android.conf.js",
-    "dev:ios": "npx wdio run ./config/wdio.ios.conf.js"
+    "dev:ios": "npx wdio run ./config/wdio.ios.conf.js",
+    "publishReport": "surge allure-report --domain anjaligc.surge.sh",
+    "sendMail": "node mailSender"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +22,8 @@
   "dependencies": {
     "@wdio/cli": "^8.0.10",
     "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.11",
+    "surge": "^0.23.1",
     "webdriverio": "^8.0.10"
   },
   "devDependencies": {
