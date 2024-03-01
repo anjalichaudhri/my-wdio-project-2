@@ -2,4 +2,5 @@ node_modules
 allure-results
 allure-report
 logs
-env
+.env
+junit-results

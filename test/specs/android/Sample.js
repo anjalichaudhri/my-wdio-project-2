@@ -20,6 +20,9 @@ describe('test', () => {
         // driver.end();
 
         // await driver.quit();
+
+        const preferenceElement = await $('~Preference');
+        await preferenceElement.click();
     })
 })
 

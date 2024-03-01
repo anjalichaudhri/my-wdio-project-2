@@ -6,7 +6,7 @@ exports.config = {
     // Runner Configuration
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
-    runner: 'local',
+    // runner: 'local',
     // port: 4726,
     //
     // ==================
@@ -142,6 +142,12 @@ exports.config = {
             outputDir: 'allure-results',
             disableWebdriverStepsReporting: false,
             disableWebdriverScreenshotsReporting: false,
+        }],
+        ['junit', {
+            outputDir: 'junit-results',
+            outputFileFormat: function(options) { // optional
+                return `results-${options.cid}.xml`
+            }
         }]
     ],
 

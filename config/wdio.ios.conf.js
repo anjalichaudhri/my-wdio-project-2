@@ -1,5 +1,6 @@
 const {config} = require("./wdio.shared.conf");
 
+config.runner = 'local',
 config.port = 4723;
 
 config.specs = [
